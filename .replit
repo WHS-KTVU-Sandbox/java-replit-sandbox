@@ -1,2 +1,3 @@
+entrypoint = "src/Main.java"
 compile = "javac *.java"
 run = "java Main"
