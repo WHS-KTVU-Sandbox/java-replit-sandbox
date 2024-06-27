@@ -1,9 +1,2 @@
-modules = ["java-graalvm22.3"]
 compile = "javac *.java"
 run = "java Main"
-
-[nix]
-channel = "stable-23_11"
-
-[deployment]
-run = ["sh", "-c", "javac *.java && java Main"]
