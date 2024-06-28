@@ -1,3 +1,4 @@
+entrypoint = "Main.java"
 hidden = [".git/", ".gitignore", ".replit"]
 compile = "javac -cp ./src/ -d class/ src/*.java"
 run = "java -cp ./class/ Main"
